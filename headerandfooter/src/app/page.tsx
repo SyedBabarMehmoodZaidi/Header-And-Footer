@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='backgroundcover'>
       {/* Navbar */}
       <header className='logo'>
         <h1>Pak Angro Trader</h1>

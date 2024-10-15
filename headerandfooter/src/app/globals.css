@@ -45,26 +45,38 @@ a{
   color: white;
 }
 
+.backgroundcover{
+  background-image: url(https://img.freepik.com/premium-photo/fruits-vegetables-ortifrutite-trade-family_943281-35578.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 0px;
+}
+
 /* Hero Section Styling */
 .hero {
   text-align: center;
+  word-spacing: 5px;
   padding: 100px 10%; /* Adjusted padding to leave space for fixed navbar */
-  background-color: #e0f7fa;
-  margin-top: 100px; /* Make sure content appears below the navbar */
+  
+   /* Make sure content appears below the navbar */
 }
 
 .hero h1 {
   font-size: 2.5rem;
-  color: seagreen;
-  margin-bottom: 20px;
+  color: white;
+  padding-top: 100px;
+  margin-bottom: 0px;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 1.5rem;
+  color: chartreuse;
   max-width: 700px;
+  padding-top: 10px;
   margin: 0 auto;
 }
+
 
 .navbar {
   list-style: none;
@@ -113,4 +125,5 @@ a{
   padding: 10px;
   
 }
+
 

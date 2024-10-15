@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.header}>About Page</h1>
-      <ul >
+      <ul className={styles.navbar}>
         <li><Link href="/"> Go To Home Page</Link></li>
         <li><Link href="/contact"> Go To Contact Page </Link></li>
         <li><Link href="/service"> Go To Service Page </Link></li>
